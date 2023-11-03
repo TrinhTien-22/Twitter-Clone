@@ -286,7 +286,7 @@
   #mine .grid-tweet {
 	display: grid;
 	grid-template-columns: 10% 90%;
-	margin-left: 15px;
+	margin-left: 25px;
 	margin-right: 2px;
   }
   #mine .username-twitter {
