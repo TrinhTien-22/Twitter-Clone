@@ -265,7 +265,7 @@ $notify_count = User::CountNotification($user_id);
                         <div>
 
                           <span class="bioCount" id="count">140</span>
-                          <input id="tweet-input" type="submit" name="tweet" value="Tweet" class="submit">
+                          <input id="tweet-input" type="" name="tweet" value="Tweet" class="submit">
                         </div>
                       </div>
                     </form>

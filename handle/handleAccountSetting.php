@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
     $username =   User::checkInput($_POST['username']);
 
     $v = new Validator; 
-    $v->rules('username' , $username , ['required' , 'string' , 'max:20']);
+    $v->rules('username' , $username , ['required' , 'string' , 'max:20']); 
     $v->rules('email' , $email , ['required' , 'email']);
     $errors = $v->errors;
 
@@ -51,5 +51,3 @@ if (isset($_POST['submit'])) {
     
 
 } else header('location: ../home.php');
-
-?>
